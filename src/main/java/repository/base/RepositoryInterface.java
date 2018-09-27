@@ -8,8 +8,7 @@ public interface RepositoryInterface<Domain> {
     void insertMany(List<Domain> domainList);
     Domain findById(Long id) throws DomainNotFoundException;
     List<Domain> findAll();
-    Long count();
+    Long countAll();
     void updateById(Long id, Domain domain);
     void deleteById(Long id);
 }
-
