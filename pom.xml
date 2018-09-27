@@ -9,7 +9,7 @@
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>repository-base</name>
+    <name>miyakawa.tool.repository-base</name>
     <url>https://github.com/908ab/repository-base</url>
 
     <properties>
@@ -18,7 +18,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <!-- 認証情報読み込み -->
         <github.global.server>github</github.global.server>
-        <repositoryName>repository-base</repositoryName>
+        <repositoryName>miyakawa.tool.repository-base</repositoryName>
         <ownerName>908ab</ownerName>
     </properties>
 

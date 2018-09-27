@@ -1,6 +1,6 @@
-package repository.base;
+package miyakawa.tool.repository.base;
 
-import repository.exception.DomainNotFoundException;
+import miyakawa.tool.repository.exception.DomainNotFoundException;
 import java.util.List;
 
 public interface RepositoryInterface<Domain> {
